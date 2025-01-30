@@ -114,6 +114,7 @@ function printContributorCell(contributor: Contributor) {
 		`<img src="${contributor.avatar_url}?s=100" width="100px;" alt="${contributor.name}"/>`,
 		`<br />`,
 		`<sub><b>${contributor.name}</b></sub></a><br />`,
+		// eslint-disable-next-line @typescript-eslint/no-misused-spread
 		...contributor.contributions
 			.map((contribution) => {
 				switch (contribution) {
