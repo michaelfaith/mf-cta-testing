@@ -106,7 +106,7 @@ export const blockReleaseIt = base.createBlock({
 										GITHUB_TOKEN: "${{ secrets.ACCESS_TOKEN }}",
 										NPM_TOKEN: "${{ secrets.NPM_TOKEN }}",
 									},
-									uses: "JoshuaKGoldberg/release-it-action@v0.2.2",
+									uses: "JoshuaKGoldberg/release-it-action@v0.3.1",
 								},
 							],
 						}),
