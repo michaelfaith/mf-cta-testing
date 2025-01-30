@@ -1,5 +1,11 @@
 # Changelog
 
+# 2.0.0-beta.10 (2025-01-30)
+
+### Bug Fixes
+
+- update package name and details ([#2](https://github.com/michaelfaith/mf-cta-testing/issues/2)) ([be95495](https://github.com/michaelfaith/mf-cta-testing/commit/be9549572591d9ebd86c2a67b638ed20aec6110e))
+
 # [2.0.0-beta.9](https://github.com/JoshuaKGoldberg/create-typescript-app/compare/v2.0.0-beta.8...v2.0.0-beta.9) (2025-01-17)
 
 ### Bug Fixes
