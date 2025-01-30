@@ -1,5 +1,4 @@
 import { base } from "../base.js";
-import { blockCSpell } from "../blocks/blockCSpell.js";
 import { blockESLintComments } from "../blocks/blockESLintComments.js";
 import { blockESLintJSDoc } from "../blocks/blockESLintJSDoc.js";
 import { blockESLintJSONC } from "../blocks/blockESLintJSONC.js";
@@ -30,7 +29,6 @@ export const presetEverything = base.createPreset({
 	},
 	blocks: [
 		...presetCommon.blocks,
-		blockCSpell,
 		blockESLintComments,
 		blockESLintJSDoc,
 		blockESLintJSONC,

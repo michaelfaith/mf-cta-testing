@@ -15,14 +15,6 @@ describe("blockESLint", () => {
 			  "addons": [
 			    {
 			      "addons": {
-			        "words": [
-			          "tseslint",
-			        ],
-			      },
-			      "block": [Function],
-			    },
-			    {
-			      "addons": {
 			        "sections": {
 			          "Linting": {
 			            "contents": {
@@ -142,14 +134,6 @@ describe("blockESLint", () => {
 		expect(creation).toMatchInlineSnapshot(`
 			{
 			  "addons": [
-			    {
-			      "addons": {
-			        "words": [
-			          "tseslint",
-			        ],
-			      },
-			      "block": [Function],
-			    },
 			    {
 			      "addons": {
 			        "sections": {
@@ -308,14 +292,6 @@ describe("blockESLint", () => {
 			  "addons": [
 			    {
 			      "addons": {
-			        "words": [
-			          "tseslint",
-			        ],
-			      },
-			      "block": [Function],
-			    },
-			    {
-			      "addons": {
 			        "sections": {
 			          "Linting": {
 			            "contents": {
@@ -450,14 +426,6 @@ describe("blockESLint", () => {
 		expect(creation).toMatchInlineSnapshot(`
 			{
 			  "addons": [
-			    {
-			      "addons": {
-			        "words": [
-			          "tseslint",
-			        ],
-			      },
-			      "block": [Function],
-			    },
 			    {
 			      "addons": {
 			        "sections": {

@@ -15,14 +15,6 @@ describe("blockPrettier", () => {
 			  "addons": [
 			    {
 			      "addons": {
-			        "ignores": [
-			          ".all-contributorsrc",
-			        ],
-			      },
-			      "block": [Function],
-			    },
-			    {
-			      "addons": {
 			        "sections": {
 			          "Formatting": {
 			            "contents": "
@@ -125,14 +117,6 @@ describe("blockPrettier", () => {
 		expect(creation).toMatchInlineSnapshot(`
 			{
 			  "addons": [
-			    {
-			      "addons": {
-			        "ignores": [
-			          ".all-contributorsrc",
-			        ],
-			      },
-			      "block": [Function],
-			    },
 			    {
 			      "addons": {
 			        "sections": {
@@ -251,14 +235,6 @@ describe("blockPrettier", () => {
 		expect(creation).toMatchInlineSnapshot(`
 			{
 			  "addons": [
-			    {
-			      "addons": {
-			        "ignores": [
-			          ".all-contributorsrc",
-			        ],
-			      },
-			      "block": [Function],
-			    },
 			    {
 			      "addons": {
 			        "sections": {

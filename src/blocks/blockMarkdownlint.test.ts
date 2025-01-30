@@ -15,14 +15,6 @@ describe("blockMarkdownlint", () => {
 			  "addons": [
 			    {
 			      "addons": {
-			        "words": [
-			          "markdownlintignore",
-			        ],
-			      },
-			      "block": [Function],
-			    },
-			    {
-			      "addons": {
 			        "sections": {
 			          "Linting": {
 			            "contents": {
@@ -104,14 +96,6 @@ describe("blockMarkdownlint", () => {
 		expect(creation).toMatchInlineSnapshot(`
 			{
 			  "addons": [
-			    {
-			      "addons": {
-			        "words": [
-			          "markdownlintignore",
-			        ],
-			      },
-			      "block": [Function],
-			    },
 			    {
 			      "addons": {
 			        "sections": {

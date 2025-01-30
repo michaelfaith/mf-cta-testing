@@ -3,7 +3,6 @@ import { z } from "zod";
 import { base } from "../base.js";
 import { getPackageDependencies } from "../data/packageData.js";
 import { resolveBin } from "../utils/resolveBin.js";
-import { blockCSpell } from "./blockCSpell.js";
 import { blockDevelopmentDocs } from "./blockDevelopmentDocs.js";
 import { blockESLint } from "./blockESLint.js";
 import { blockExampleFiles } from "./blockExampleFiles.js";
@@ -52,9 +51,6 @@ export const blockVitest = base.createBlock({
 
 		return {
 			addons: [
-				blockCSpell({
-					ignores: ["coverage"],
-				}),
 				blockDevelopmentDocs({
 					sections: {
 						Testing: {
