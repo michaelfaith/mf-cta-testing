@@ -1,5 +1,7 @@
 # Changelog
 
+## [2.0.1-beta.0](https://github.com/michaelfaith/mf-cta-testing/compare/2.0.0-beta.10...2.0.1-beta.0) (2025-01-30)
+
 # 2.0.0-beta.10 (2025-01-30)
 
 ### Bug Fixes
