@@ -3,7 +3,6 @@ import { blockAreTheTypesWrong } from "./blockAreTheTypesWrong.js";
 import { blockCodecov } from "./blockCodecov.js";
 import { blockContributingDocs } from "./blockContributingDocs.js";
 import { blockContributorCovenant } from "./blockContributorCovenant.js";
-import { blockCSpell } from "./blockCSpell.js";
 import { blockDevelopmentDocs } from "./blockDevelopmentDocs.js";
 import { blockESLint } from "./blockESLint.js";
 import { blockESLintComments } from "./blockESLintComments.js";
@@ -48,7 +47,6 @@ export const blocks = {
 	blockCodecov,
 	blockContributingDocs,
 	blockContributorCovenant,
-	blockCSpell,
 	blockDevelopmentDocs,
 	blockESLint,
 	blockESLintComments,
@@ -93,7 +91,6 @@ export { blockAreTheTypesWrong } from "./blockAreTheTypesWrong.js";
 export { blockCodecov } from "./blockCodecov.js";
 export { blockContributingDocs } from "./blockContributingDocs.js";
 export { blockContributorCovenant } from "./blockContributorCovenant.js";
-export { blockCSpell } from "./blockCSpell.js";
 export { blockDevelopmentDocs } from "./blockDevelopmentDocs.js";
 export { blockESLint } from "./blockESLint.js";
 export { blockESLintComments } from "./blockESLintComments.js";

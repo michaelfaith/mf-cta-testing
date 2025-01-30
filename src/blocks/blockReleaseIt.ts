@@ -1,6 +1,5 @@
 import { base } from "../base.js";
 import { getPackageDependencies } from "../data/packageData.js";
-import { blockCSpell } from "./blockCSpell.js";
 import { blockPackageJson } from "./blockPackageJson.js";
 import { blockRepositorySecrets } from "./blockRepositorySecrets.js";
 import { createSoloWorkflowFile } from "./files/createSoloWorkflowFile.js";
@@ -12,9 +11,6 @@ export const blockReleaseIt = base.createBlock({
 	produce({ options }) {
 		return {
 			addons: [
-				blockCSpell({
-					words: ["apexskier"],
-				}),
 				blockPackageJson({
 					properties: {
 						devDependencies: getPackageDependencies(

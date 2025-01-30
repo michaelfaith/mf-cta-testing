@@ -19,14 +19,6 @@ describe("blockVitest", () => {
 			  "addons": [
 			    {
 			      "addons": {
-			        "ignores": [
-			          "coverage",
-			        ],
-			      },
-			      "block": [Function],
-			    },
-			    {
-			      "addons": {
 			        "sections": {
 			          "Testing": {
 			            "contents": "
@@ -250,14 +242,6 @@ describe("blockVitest", () => {
 		expect(creation).toMatchInlineSnapshot(`
 			{
 			  "addons": [
-			    {
-			      "addons": {
-			        "ignores": [
-			          "coverage",
-			        ],
-			      },
-			      "block": [Function],
-			    },
 			    {
 			      "addons": {
 			        "sections": {
@@ -504,14 +488,6 @@ describe("blockVitest", () => {
 		expect(creation).toMatchInlineSnapshot(`
 			{
 			  "addons": [
-			    {
-			      "addons": {
-			        "ignores": [
-			          "coverage",
-			        ],
-			      },
-			      "block": [Function],
-			    },
 			    {
 			      "addons": {
 			        "sections": {

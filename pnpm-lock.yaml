@@ -56,9 +56,6 @@ importers:
       npm-user:
         specifier: ^6.1.1
         version: 6.1.1
-      object-strings-deep:
-        specifier: ^0.1.1
-        version: 0.1.1
       parse-author:
         specifier: ^2.0.0
         version: 2.0.0
@@ -90,9 +87,6 @@ importers:
       '@eslint/js':
         specifier: 9.17.0
         version: 9.17.0
-      '@prettier/sync':
-        specifier: ^0.5.2
-        version: 0.5.2(prettier@3.4.2)
       '@release-it/conventional-changelog':
         specifier: 10.0.0
         version: 10.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@18.1.1(@types/node@22.10.2)(typescript@5.7.2))
@@ -132,9 +126,6 @@ importers:
       create-testers:
         specifier: 0.2.0
         version: 0.2.0(create-fs@0.2.0)(create@0.2.0)
-      cspell:
-        specifier: 8.17.2
-        version: 8.17.2
       eslint:
         specifier: 9.17.0
         version: 9.17.0(jiti@2.4.2)
@@ -1267,11 +1258,6 @@ packages:
   '@pnpm/npm-conf@2.3.1':
     resolution: {integrity: sha512-c83qWb22rNRuB0UaVCI0uRPNRr8Z0FWnEIvT47jiHAmOIUHbBOg5XvV7pM5x+rKn9HRpjxquDbXYSXr3fAKFcw==}
     engines: {node: '>=12'}
-
-  '@prettier/sync@0.5.2':
-    resolution: {integrity: sha512-Yb569su456XNx5BsH/Vyem7xD6g/y9iLmLUzRKM1a/dhU/D7HqqvkAG72znulXlMXztbV0iiu9O5AL8K98TzZQ==}
-    peerDependencies:
-      prettier: '*'
 
   '@release-it/conventional-changelog@10.0.0':
     resolution: {integrity: sha512-49qf9phGmPUIGpY2kwfgehs9en1znbPv2zdNn1WMLAH9DtHUh4m6KNSB+mLFGAMUhv24JhsA8ruYRYgluc2UJw==}
@@ -3083,9 +3069,6 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
 
-  make-synchronized@0.2.9:
-    resolution: {integrity: sha512-4wczOs8SLuEdpEvp3vGo83wh8rjJ78UsIk7DIX5fxdfmfMJGog4bQzxfvOwq7Q3yCHLC4jp1urPHIxRS/A93gA==}
-
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
     hasBin: true
@@ -3328,10 +3311,6 @@ packages:
   object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
-
-  object-strings-deep@0.1.1:
-    resolution: {integrity: sha512-5ypgv3IIlt7v2pybSIcn1OcAQvJBtB2GrOXf1MAVNsMyQ/CYV9P5ZQPAsVrKTbZ0EMUHHMsSLbMc9SBHB57MxA==}
-    engines: {node: '>=18.3.0'}
 
   octokit-from-auth@0.2.0:
     resolution: {integrity: sha512-UMo+WQkWi1PS/HZ15SMM1sgPhhXykqPJKCCAi6R0+JAhTbLBcfeKCJ3AwUVdJBJQKSQ37BUqPpME4iGAjZQtkw==}
@@ -5303,11 +5282,6 @@ snapshots:
       '@pnpm/config.env-replace': 1.1.0
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
-
-  '@prettier/sync@0.5.2(prettier@3.4.2)':
-    dependencies:
-      make-synchronized: 0.2.9
-      prettier: 3.4.2
 
   '@release-it/conventional-changelog@10.0.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.0.0)(release-it@18.1.1(@types/node@22.10.2)(typescript@5.7.2))':
     dependencies:
@@ -7305,8 +7279,6 @@ snapshots:
     dependencies:
       semver: 7.6.3
 
-  make-synchronized@0.2.9: {}
-
   markdown-it@14.1.0:
     dependencies:
       argparse: 2.0.1
@@ -7652,8 +7624,6 @@ snapshots:
       boolbase: 1.0.0
 
   object-assign@4.1.1: {}
-
-  object-strings-deep@0.1.1: {}
 
   octokit-from-auth@0.2.0:
     dependencies:
