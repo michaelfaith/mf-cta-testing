@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.2](https://github.com/michaelfaith/mf-cta-testing/compare/2.0.1...2.0.2) (2025-01-30)
+
+### Bug Fixes
+
+- bump version of release workflow action ([#10](https://github.com/michaelfaith/mf-cta-testing/issues/10)) ([58788fe](https://github.com/michaelfaith/mf-cta-testing/commit/58788fefc37ca61e6ead566cdadbd775e0fae345))
+
 ## [2.0.1](https://github.com/michaelfaith/mf-cta-testing/compare/2.0.1-beta.0...2.0.1) (2025-01-30)
 
 ### Bug Fixes
