@@ -16,8 +16,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          git config --global user.email "git@joshuakgoldberg.com"
-          git config --global user.name "Josh Goldberg"
+          git config --global user.email "michaelfaith@users.noreply.github.com"
+          git config --global user.name "michael faith"
           npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
       - run: npx release-it --preRelease=beta
 

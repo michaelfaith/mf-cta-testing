@@ -4,7 +4,7 @@
 	"description": "Quickstart-friendly TypeScript template with comprehensive, configurable, opinionated tooling. 🎁",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/JoshuaKGoldberg/create-typescript-app.git"
+		"url": "git+https://github.com/michaelfaith/mf-cta-testing.git"
 	},
 	"license": "MIT",
 	"author": {
