@@ -1,5 +1,5 @@
 {
-	"name": "create-typescript-app",
+	"name": "mf-cta-testing",
 	"version": "2.0.0-beta.9",
 	"description": "Quickstart-friendly TypeScript template with comprehensive, configurable, opinionated tooling. 🎁",
 	"repository": {
@@ -8,8 +8,7 @@
 	},
 	"license": "MIT",
 	"author": {
-		"name": "Josh Goldberg ✨",
-		"email": "npm@joshuakgoldberg.com"
+		"name": "michael faith"
 	},
 	"type": "module",
 	"main": "lib/index.js",
@@ -105,7 +104,7 @@
 	},
 	"packageManager": "pnpm@9.15.4",
 	"engines": {
-		"node": ">=18.3.0"
+		"node": ">=20"
 	},
 	"publishConfig": {
 		"provenance": true
