@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.1](https://github.com/michaelfaith/mf-cta-testing/compare/2.0.1-beta.0...2.0.1) (2025-01-30)
+
+### Bug Fixes
+
+- remove unused dependency ([#6](https://github.com/michaelfaith/mf-cta-testing/issues/6)) ([19e8052](https://github.com/michaelfaith/mf-cta-testing/commit/19e8052b8158d3d46c0f2e9e69e7d083717f2f82))
+
 ## [2.0.1-beta.0](https://github.com/michaelfaith/mf-cta-testing/compare/2.0.0-beta.10...2.0.1-beta.0) (2025-01-30)
 
 # 2.0.0-beta.10 (2025-01-30)
