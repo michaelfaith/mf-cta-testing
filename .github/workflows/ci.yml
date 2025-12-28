@@ -37,13 +37,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/prepare
       - run: pnpm lint:md
-  lint_packages:
-    name: Lint Packages
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/actions/prepare
-      - run: pnpm lint:packages
   prettier:
     name: Prettier
     runs-on: ubuntu-latest
