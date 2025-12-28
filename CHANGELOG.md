@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.3](https://github.com/michaelfaith/mf-cta-testing/compare/mf-cta-testing-v2.0.2...mf-cta-testing-v2.0.3) (2025-12-28)
+
+
+### Bug Fixes
+
+* bump version of release workflow action ([#10](https://github.com/michaelfaith/mf-cta-testing/issues/10)) ([58788fe](https://github.com/michaelfaith/mf-cta-testing/commit/58788fefc37ca61e6ead566cdadbd775e0fae345))
+* remove unused dependency ([#6](https://github.com/michaelfaith/mf-cta-testing/issues/6)) ([19e8052](https://github.com/michaelfaith/mf-cta-testing/commit/19e8052b8158d3d46c0f2e9e69e7d083717f2f82))
+* update package name and details ([#2](https://github.com/michaelfaith/mf-cta-testing/issues/2)) ([be95495](https://github.com/michaelfaith/mf-cta-testing/commit/be9549572591d9ebd86c2a67b638ed20aec6110e))
+
 ## [2.0.2](https://github.com/michaelfaith/mf-cta-testing/compare/2.0.1...2.0.2) (2025-01-30)
 
 ### Bug Fixes
