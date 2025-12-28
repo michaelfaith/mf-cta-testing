@@ -85,14 +85,16 @@ export default tseslint.config(
 		files: ["**/*.{yml,yaml}"],
 		rules: {
 			"yml/file-extension": ["error", { extension: "yml" }],
-			"yml/sort-keys": [
-				"error",
-				{ order: { type: "asc" }, pathPattern: "^.*$" },
-			],
 			"yml/sort-sequence-values": [
 				"error",
 				{ order: { type: "asc" }, pathPattern: "^.*$" },
 			],
+		},
+	},
+	{
+		files: ["eslint.config.js"],
+		rules: {
+			"n/no-unsupported-features/node-builtins": "off",
 		},
 	},
 );
