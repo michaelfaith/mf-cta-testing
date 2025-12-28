@@ -20,7 +20,6 @@ Here we'll outline the steps required to migrate a CTA app to a GitHub Action:
 
 1. GitHub Actions store built output on a GitHub branch rather than in a published package on npm.
    As a consequence we should:
-
    - delete `.github/workflows/release.yml` and `.github/workflows/post-release.yml`.
    - update `.github/workflows/build.yml` to ensure `dist` is up to date:
 
