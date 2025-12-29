@@ -15,6 +15,7 @@
 	"bin": "bin/index.js",
 	"files": [
 		"CHANGELOG.md",
+		"bin/index.js",
 		"lib/"
 	],
 	"scripts": {
