@@ -25,7 +25,6 @@ import { blockMarkdownlint } from "./blockMarkdownlint.js";
 import { blockMITLicense } from "./blockMITLicense.js";
 import { blockNvmrc } from "./blockNvmrc.js";
 import { blockPackageJson } from "./blockPackageJson.js";
-import { blockPnpmDedupe } from "./blockPnpmDedupe.js";
 import { blockPRCompliance } from "./blockPRCompliance.js";
 import { blockPrettier } from "./blockPrettier.js";
 import { blockPrettierPluginCurly } from "./blockPrettierPluginCurly.js";
@@ -69,7 +68,6 @@ export const blocks = {
 	blockMITLicense,
 	blockNvmrc,
 	blockPackageJson,
-	blockPnpmDedupe,
 	blockPRCompliance,
 	blockPrettier,
 	blockPrettierPluginCurly,
@@ -113,7 +111,6 @@ export { blockMarkdownlint } from "./blockMarkdownlint.js";
 export { blockMITLicense } from "./blockMITLicense.js";
 export { blockNvmrc } from "./blockNvmrc.js";
 export { blockPackageJson } from "./blockPackageJson.js";
-export { blockPnpmDedupe } from "./blockPnpmDedupe.js";
 export { blockPRCompliance } from "./blockPRCompliance.js";
 export { blockPrettier } from "./blockPrettier.js";
 export { blockPrettierPluginCurly } from "./blockPrettierPluginCurly.js";

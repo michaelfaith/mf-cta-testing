@@ -225,19 +225,33 @@ pnpm run test run --coverage
 This level is for developers who are eager to get the maximum tooling benefits in a repository.
 Using the _"everything"_ level will gain you comprehensive, strict coverage of all sorts of repository issues, including auto-sorting of properties and strict ESLint configs.
 
-- [Compliance](#compliance)
-- [Lint ESLint](#lint-eslint)
-- [Lint JSDoc](#lint-jsdoc)
-- [Lint JSON](#lint-json)
-- [Lint MD](#lint-md)
-- [Lint Package JSON](#lint-package-json)
-- [Lint Packages](#lint-packages)
-- [Lint Perfectionist](#lint-perfectionist)
-- [Lint Regexp](#lint-regexp)
-- [Lint Spelling](#lint-spelling)
-- [Lint Strict](#lint-strict)
-- [Lint Stylistic](#lint-stylistic)
-- [Lint YML](#lint-yml)
+- [Blocks](#blocks)
+  - ["Minimal" Base Level](#minimal-base-level)
+    - [Building](#building)
+    - [Formatting](#formatting)
+    - [Linting](#linting)
+    - [Package Management](#package-management)
+    - [Repository Templates](#repository-templates)
+    - [Type Checking](#type-checking)
+  - ["Common" Base Level](#common-base-level)
+    - [Contributors](#contributors)
+    - [Lint Knip](#lint-knip)
+    - [Releases](#releases)
+    - [Renovate](#renovate)
+    - [Testing](#testing)
+  - ["Everything" Base Level](#everything-base-level)
+    - [Compliance](#compliance)
+    - [Lint ESLint](#lint-eslint)
+    - [Lint JSDoc](#lint-jsdoc)
+    - [Lint JSON](#lint-json)
+    - [Lint MD](#lint-md)
+    - [Lint Package JSON](#lint-package-json)
+    - [Lint Perfectionist](#lint-perfectionist)
+    - [Lint Regexp](#lint-regexp)
+    - [Lint Spelling](#lint-spelling)
+    - [Lint Strict](#lint-strict)
+    - [Lint Stylistic](#lint-stylistic)
+    - [Lint YML](#lint-yml)
 
 ### Compliance
 
@@ -268,16 +282,6 @@ pnpm lint:md
 ### Lint Package JSON
 
 [`eslint-plugin-package-json`](https://github.com/JoshuaKGoldberg/eslint-plugin-package-json): Linting for `package.json` files.
-
-### Lint Packages
-
-Uses [`pnpm dedupe`](https://pnpm.io/cli/dedupe) to deduplicate package dependencies.
-
-```shell
-pnpm lint:packages
-```
-
-> This is grouped with _"Lint"_ tooling pieces, but will likely eventually be renamed ([#896](https://github.com/JoshuaKGoldberg/create-typescript-app/issues/896)).
 
 ### Lint Perfectionist
 
