@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.4](https://github.com/michaelfaith/mf-cta-testing/compare/v2.0.3...v2.0.4) (2025-12-29)
+
+
+### Bug Fixes
+
+* update remove-undefined-objects ([#19](https://github.com/michaelfaith/mf-cta-testing/issues/19)) ([3a13385](https://github.com/michaelfaith/mf-cta-testing/commit/3a13385cacb5921797c4c7981cc14c16b048c151))
+
 ## [2.0.3](https://github.com/michaelfaith/mf-cta-testing/compare/2.0.2...v2.0.3) (2025-12-29)
 
 
