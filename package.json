@@ -14,11 +14,9 @@
 	"main": "lib/index.js",
 	"bin": "bin/index.js",
 	"files": [
-		"LICENSE.md",
-		"README.md",
+		"CHANGELOG.md",
 		"bin/index.js",
-		"lib/",
-		"package.json"
+		"lib/"
 	],
 	"scripts": {
 		"build": "tsup",
@@ -100,9 +98,6 @@
 	},
 	"packageManager": "pnpm@10.26.2",
 	"engines": {
-		"node": ">=20.6.0"
-	},
-	"publishConfig": {
-		"provenance": true
+		"node": "^20.19.0 || ^22.12.0 || >=24.0.0"
 	}
 }
