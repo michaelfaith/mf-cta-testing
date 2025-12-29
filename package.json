@@ -26,7 +26,7 @@
 		"lint:md": "markdownlint \"**/*.md\" \".github/**/*.md\" --rules sentences-per-line",
 		"prepare": "husky",
 		"test": "vitest",
-		"tsc": "tsc"
+		"typecheck": "tsc"
 	},
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
@@ -51,8 +51,8 @@
 		"parse-package-name": "^1.0.0",
 		"remove-dependencies": "~0.1.1",
 		"remove-undefined-objects": "^7.0.0",
-		"set-github-repository-labels": "~0.1.0",
-		"sort-package-json": "^2.14.0",
+		"set-github-repository-labels": "~0.2.2",
+		"sort-package-json": "^3.6.0",
 		"title-case": "^4.3.2",
 		"zod": "^3.24.1"
 	},
