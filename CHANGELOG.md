@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/michaelfaith/mf-cta-testing/compare/2.0.2...v2.0.3) (2025-12-29)
+
+
+### Bug Fixes
+
+* update multiple deps ([#15](https://github.com/michaelfaith/mf-cta-testing/issues/15)) ([59ff8ee](https://github.com/michaelfaith/mf-cta-testing/commit/59ff8eed9685d8793e98b3f8ec3a4536945cb39f))
+
 ## [2.0.2](https://github.com/michaelfaith/mf-cta-testing/compare/2.0.1...2.0.2) (2025-01-30)
 
 ### Bug Fixes
