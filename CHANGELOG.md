@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.0.0](https://github.com/michaelfaith/mf-cta-testing/compare/v2.0.4...v3.0.0) (2026-01-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove lint:packages block ([#17](https://github.com/michaelfaith/mf-cta-testing/issues/17))
+
+### Features
+
+* remove lint:packages block ([#17](https://github.com/michaelfaith/mf-cta-testing/issues/17)) ([ad66564](https://github.com/michaelfaith/mf-cta-testing/commit/ad6656445cfbb302d78274bc84a060d84ab287e1))
+* update release workflow ([#23](https://github.com/michaelfaith/mf-cta-testing/issues/23)) ([9bf5153](https://github.com/michaelfaith/mf-cta-testing/commit/9bf51536684ebe5ed3d5b463eaebba39a1496218))
+
+
+### Bug Fixes
+
+* update sort-package-json ([#22](https://github.com/michaelfaith/mf-cta-testing/issues/22)) ([485c209](https://github.com/michaelfaith/mf-cta-testing/commit/485c209101223a12a09a03e727fe2f13256526b9))
+
 ## [2.0.4](https://github.com/michaelfaith/mf-cta-testing/compare/v2.0.3...v2.0.4) (2025-12-29)
 
 
